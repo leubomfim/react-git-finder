@@ -1,0 +1,51 @@
+.form {
+    width: 100%;
+    max-width: 500px;
+    margin: 0 auto;
+}
+
+.form_control {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.form_control input {
+    width: 100%;
+    padding: 10px;
+    font-size: 1.1em;
+    outline: none;
+    border: 1px solid #222;
+}
+
+.form_control button {
+    width: 100%;
+    cursor: pointer;
+    background-color: #222;
+    color: white;
+    padding: 10px;
+    font-size: 1.1em;
+    transition: all .8s;
+}
+
+.form_control button:hover {
+    border: 1px solid #222;
+    background-color: transparent;
+    color: #000;
+}
+.form_control a {
+    width: 100%;
+}
+
+small {
+    color: rgb(46, 45, 45);
+    font-size: 1.2em;
+    position: absolute;
+    font-style: italic;
+    left: 34%;
+    bottom: -50px;
+}
+

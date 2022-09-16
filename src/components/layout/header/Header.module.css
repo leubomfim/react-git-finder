@@ -1,0 +1,35 @@
+.header {
+    padding: 50px;
+}
+
+.header_wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+.header_wrapper h1 {
+    font-size: 52px;
+}
+
+.header_wrapper svg {
+    width: 80px;
+    height: 80px;
+}
+
+@media screen and (max-width: 475px) {
+    .header_wrapper {
+        flex-direction: column;
+    }
+    
+    .header_wrapper h1 {
+        font-size: 40px;
+    }
+    
+    .header_wrapper svg {
+        width: 50px;
+        height: 50px;
+    }
+    
+}
