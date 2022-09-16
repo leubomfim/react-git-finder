@@ -27,14 +27,14 @@ export default function User() {
 
     return (
         <>
-        {!user && ( 
+        {!user && repos.length === 0 && ( 
         <div className={styles.loading_container}>
             <div className={styles.loading}>
                 <p>Loading...</p>
             </div>
         </div>
         )}
-        {user && 
+        {user && repos.length > 0 && 
         <section className={styles.user_informations}>
             <AiFillGithub className={styles.git_logo} />
             <div className={styles.display_user}>
